@@ -31,6 +31,7 @@ public class ExSamara1 {
             case "masculino":
                 calculo = (72.7 * altura) - 58;
                 System.out.printf("Seu peso ideal é: %.2f\n ", calculo);
+                break;
         }  
     }
 }
