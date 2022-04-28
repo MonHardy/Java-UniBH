@@ -27,14 +27,14 @@ public class Samara2804 {
         
         parImpar = numeroUsuario % 2;
         if (parImpar == 0){
-            System.out.println("Esse número é par");
+            System.out.println("Esse número é Par");
         }else{
-            System.out.println("Esse número é ímpar");
+            System.out.println("Esse número é Ímpar");
             }
         if (numeroUsuario < 0){
-            System.out.println("Esse número é Negativo");
+            System.out.println("Esse número é Negativo \n");
         }else{
-            System.out.println("Esse número é Positivo");
+            System.out.println("Esse número é Positivo \n");
             }
         }      
     }
