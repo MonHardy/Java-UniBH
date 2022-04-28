@@ -25,11 +25,16 @@ public class Samara2804 {
         
         ListaNumeroUsuarios.add(numeroUsuario);
         
-                parImpar = numeroUsuario % 2;
+        parImpar = numeroUsuario % 2;
         if (parImpar == 0){
             System.out.println("Esse número é par");
         }else{
             System.out.println("Esse número é ímpar");
+            }
+        if (numeroUsuario < 0){
+            System.out.println("Esse número é Negativo");
+        }else{
+            System.out.println("Esse número é Positivo");
             }
         }      
     }
